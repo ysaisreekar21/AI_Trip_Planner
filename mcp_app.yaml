@@ -1,0 +1,5 @@
+command: ["uv", "run", "custom-mcp-server"]
+
+env:
+  - name: ENDPOINT_NAME
+    valueFrom: database
